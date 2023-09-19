@@ -1,7 +1,10 @@
-
- - name: Open firewall
-      ansible.posix.firewalld:
-         service: http
-         immediate: yes
-         state: enabled
-         permanent: yes
+---
+- name: Setup a webserver
+  hosts: servera
+  tasks:
+  - name: Open firewall
+    ansible.posix.firewalld:
+       service: http
+       immediate: yes
+       state: enabled
+       permanent: yes
