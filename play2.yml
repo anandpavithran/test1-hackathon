@@ -1,6 +1,6 @@
 ---
 - name: Setup a webserver
-  hosts: servera
+  hosts: all
   tasks:
   - name: Open firewall
     ansible.posix.firewalld:
