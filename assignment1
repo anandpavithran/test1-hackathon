@@ -1,0 +1,10 @@
+1] Create two teams blackhorse and devopsdynamos
+2] Create three users [b1,b2,b3,student] in blackhorse and  three users in [d1,d2,d3,student]devopsdynamos with 
+    password "redhat"
+3] Create credential name [operations] as per the page 115 
+4] Create a GITHUB repo named "xyz-hackathon" in your personal account
+5] Create an inventory name blackhorse-inv and devopsdynamos-inv
+     blackhorse-inv
+         create a group name group1 add servera as host
+     devopsdynamos-inv
+         create a group name group2 add serverb as host
