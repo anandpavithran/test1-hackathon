@@ -1,6 +1,6 @@
 ---
 - name: Setup a webserver
-  hosts: servera
+  hosts: all
   tasks:
     - name: Install httpd
       ansible.builtin.yum:
